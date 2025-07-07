@@ -28,6 +28,12 @@ This script will:
 
 Use the key generation script to create the necessary keys and data for provisioning:
 
+Make sure the virtual environment is activated before running this script:
+
+```bash
+source .cra_env/bin/activate
+```
+
 ```bash
 scripts/generate_keys.sh
 ```
@@ -47,6 +53,12 @@ Run the provisioning script which will:
 - Launch the DUT validation process
 - Write keys step-by-step to the DUT simulator
 - Perform the provisioning challenge-response verification
+
+Make sure the virtual environment is activated before running this script:
+
+```bash
+source .cra_env/bin/activate
+```
 
 ```bash
 scripts/write_keys_and_start_test.sh
